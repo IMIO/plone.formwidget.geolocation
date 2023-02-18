@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.2.0\n"
-"POT-Creation-Date: 2022-06-02 11:25+0000\n"
+"POT-Creation-Date: 2023-02-18 10:43+0000\n"
 "PO-Revision-Date: 2019-04-19 22:15+0000\n"
 "Last-Translator: Johannes Raggam <thetetet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,22 @@ msgstr ""
 
 #: ../interfaces.py:116
 msgid "Default longitude"
+msgstr ""
+
+#: ../interfaces.py:133
+msgid "Default zoom (edit)"
+msgstr ""
+
+#: ../interfaces.py:140
+msgid "Default zoom (view)"
+msgstr ""
+
+#: ../interfaces.py:134
+msgid "Default zoom for geolocation widget in edit mode"
+msgstr ""
+
+#: ../interfaces.py:141
+msgid "Default zoom for geolocation widget in view mode"
 msgstr ""
 
 #. Default: "Esri DeLorme"
@@ -84,7 +100,7 @@ msgstr ""
 msgid "Esri.WorldTopoMap"
 msgstr ""
 
-#: ../configure.zcml:67
+#: ../configure.zcml:75
 msgid "Extension profile for Plone."
 msgstr ""
 
@@ -200,6 +216,10 @@ msgstr ""
 msgid "Thunderforest.TransportDark"
 msgstr ""
 
+#: ../configure.zcml:82
+msgid "Upgrade to version 2000"
+msgstr ""
+
 #: ../interfaces.py:124
 msgid "Use default geolocation for contents"
 msgstr ""
@@ -289,10 +309,10 @@ msgstr ""
 msgid "label_maps_zoom"
 msgstr ""
 
-#: ../configure.zcml:67
+#: ../configure.zcml:75
 msgid "plone.formwidget.geolocation map install"
 msgstr ""
 
-#: ../configure.zcml:75
+#: ../configure.zcml:89
 msgid "plone.formwidget.geolocation map uninstall"
 msgstr ""
