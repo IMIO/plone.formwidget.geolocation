@@ -80,3 +80,9 @@ def upgrade_5_to_6(context):
     context.runImportStepFromProfile(
         "profile-plone.formwidget.geolocation:default", "plone.app.registry"
     )
+
+
+def upgrade_2000_to_2001(context):
+    context.runImportStepFromProfile(
+        "profile-plone.formwidget.geolocation:default", "plone.app.registry"
+    )

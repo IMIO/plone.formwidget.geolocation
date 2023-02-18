@@ -4,6 +4,9 @@ Changelog
 3.0.4 (unreleased)
 ------------------
 
+- Add `default_input_zoom` and `default_display_zoom` options in control panel
+  [mpeeters]
+
 - Fix usage of default location from configuration
   [mpeeters]
 

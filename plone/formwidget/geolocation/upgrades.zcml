@@ -45,5 +45,13 @@
             import_profile="plone.formwidget.geolocation:to_2000"
             import_steps="plone.app.registry" />
     </genericsetup:upgradeSteps>
+    <genericsetup:upgradeStep
+        title="Add zoom for input and display"
+        description="Add defaut zoom that can be set for both input and display modes"
+        profile="plone.formwidget.geolocation:default"
+        source="2000"
+        destination="2001"
+        handler="plone.formwidget.geolocation.upgrades.upgrade_2000_to_2001"
+        />
 
 </configure>
